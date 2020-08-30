@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Slick Handler",
+  "description": "This extension automatically adds a bookmark to a set of pre-defined categories",
+  "version": "1.0",
+
+  "icons": { 
+    "48": "icon.png"
+   },
+
+  "permissions": [
+    "http://*/*", 
+    "https://*/*"
+  ],
+
+  "browser_action": {
+    "default_title": "Slick Handler",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
